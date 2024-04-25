@@ -20,7 +20,7 @@ Add your answers to this markdown file.
 
 ## Testing for $O(n)$
 
-If we only have a blackbox algorithm, then we'll have to test it and graph it. I would test it with different cases, like being sorted, slightly sorted, randomly shuffled, completely reversed for the worst case, and lists of the same number, and make about 30 different versions of each case, going from 1 to 30 length. I would also test empty lists. Then we can graph the time it took to sort over the change in length and test it against $y = x$ which will be my linear regression line. If the correlation coefficient $r$ is significantly close to 1, then we do truly have a linear algorithm, otherwise the algorithm does not have a $O(n)$ complexity. 
+If we only have a blackbox algorithm, then we'll have to test it and graph it. I would test it with different cases, like being sorted, slightly sorted, randomly shuffled, completely reversed for the worst case, and lists of the same number, and make about 30 different versions of each case, going from 1 to 30 length. I would also test empty lists. Then we can graph the time it took to sort over the change in length and find the linear regression equation. If the linear regression is linear ($ax+b$) and the correlation coefficient is significanlty close to 1, then we do truly have a linear algorithm, otherwise the algorithm does not have a $O(n)$ complexity. 
 
 ## Theoretical Analysis
 
