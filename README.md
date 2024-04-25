@@ -22,6 +22,6 @@ Add your answers to this markdown file.
 
 If we only have a blackbox algorithm, then we'll have to test it and graph it. I would test it with different cases, like being sorted, slightly sorted, randomly shuffled, completely reversed for the worst case, and lists of the same number, and make about 30 different versions of each case, going from 1 to 30 length. I would also test empty lists. Then we can graph the time it took to sort over the change in length and find a linear regression line for the data. If the $r$ is significantly close to 1, then we do truly have a linear algorithm, otherwise the algorithm does not have a $O(n)$ complexity. 
 
-## Why X is not correct
+## Theoretical Analysis
 
 This Computer Science researcher says that his alrogithm sorts in $O(n)$ time using comparisions of two elements of a time. But we know from class it is proven that the best time for a comparison of two elements sorting algorithm can only be $\Omega(nlogn)$. So theoretically this algorithm can not be correct. 
